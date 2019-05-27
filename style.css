@@ -1,194 +1,422 @@
-/* write your styles here */
-
-body {
-    margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-section {
-    background-image: url("images/floral.png");
-}
-
-.head-line {
-    text-align: end;
-    padding: 5px;
-    margin: 0%;
-    background-color: #ed484c;
-    border-bottom: 2px solid white;
-    color: white;
-}
-
-.upper-line-1,
-.upper-line-2 {
-    display: inline-block;
-    margin: 0;
-}
-
-.marked {
-    background-color: yellow;
-    display: inline-block;
-    color: black;
-    font-weight: bold;
-    padding: 0 3px;
-}
-
-nav {
-    margin: 0%;
-    background-color: #4c4c4c;
-    padding: 0.5em;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: flex-start;
-    padding: 10px 30px;
-}
-
-.list-items {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    color: white;
-}
-
-li {
-    display: inline-block;
-    padding: 10px;
-}
-
-.tech-karo-circle {
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 2em 17em;
-    background-color: #f18d97;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-.tech-karo-circle p {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 15px;
-    font-size: 25px;
-    text-align: center;
-}
-
-button {
-    color: #f18d97;
-    background-color: #160d0e;
-    padding: 0.5em 2em;
-    font-size: 30px;
-    border: none;
-}
-
-.our-services {
-    background-color: #efece7;
-}
-
-.our-services i {
-    font-size: 7em;
-}
-
-.our-services p {
-    padding: 10px 20px;
-}
-
-.portfolio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
-    padding: 2em 10em;
-    background-color: #ddceb4;
-}
-
-.portfolio p {
-    padding: 2em 17em;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 15px;
-    font-size: 25px;
-    text-align: center;
-}
-
-.portfolio img {
-    height: 10em;
-    width: 12em;
-    border: none;
-    border-radius: 15px;
-    padding: 10px;
-}
-
-.images-1 .images-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-h2 {
-    font-family: 'Pacifico', cursive;
-    font-size: 30px;
-    font-weight: 100;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-}
-
-.services {
-    display: flex;
-    text-align: center;
-}
-
-.contact-us {
-    background-color: #afc7c6;
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-    justify-content: center;
-}
-
-.contact-us i {
-    font-size: 1.5em;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 50px 50px;
-    margin: 10px;
-}
-
-.contact-us div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
-}
-
-footer {
-    background-color: #212121;
-    padding: 1.5em;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-}
-
-.services i:hover {
-    color: #ed484c;
-}
-
-.contact-us i:hover {
-    background-color: black;
-    color: #ddceb4;
-}
-
-footer:hover i {
-    color: red;
-}
+                                                                                                                                                                            /* write your styles here */
+                                                                                                                                                                            
+                                                                                                                                                                            body {
+                                                                                                                                                                                margin: 0;
+                                                                                                                                                                                width: 100%;
+                                                                                                                                                                                height: 100%;
+                                                                                                                                                                                font-family: 'Source Sans Pro', sans-serif;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            section {
+                                                                                                                                                                                background-image: url("images/floral.png");
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            marquee {
+                                                                                                                                                                                padding: 1px;
+                                                                                                                                                                                margin: 0%;
+                                                                                                                                                                                background-color: #ed484c;
+                                                                                                                                                                                border-bottom: 1px solid white;
+                                                                                                                                                                                color: white;
+                                                                                                                                                                                font-size: 20px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            mark {
+                                                                                                                                                                                background-color: yellow;
+                                                                                                                                                                                display: inline-block;
+                                                                                                                                                                                color: black;
+                                                                                                                                                                                font-weight: bold;
+                                                                                                                                                                                padding: 0 3px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            header {
+                                                                                                                                                                                margin: 0%;
+                                                                                                                                                                                background-color: #4c4c4c;
+                                                                                                                                                                                padding: 0.5em;
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                justify-content: space-between;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .logo {
+                                                                                                                                                                                width: 90px;
+                                                                                                                                                                                height: 50px;
+                                                                                                                                                                                padding: 10px 20px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .list-items {
+                                                                                                                                                                                list-style: none;
+                                                                                                                                                                                color: white;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            li {
+                                                                                                                                                                                display: inline-block;
+                                                                                                                                                                                padding: 10px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .tech-karo-circle {
+                                                                                                                                                                                color: black;
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                justify-content: center;
+                                                                                                                                                                                align-items: center;
+                                                                                                                                                                                flex-direction: column;
+                                                                                                                                                                                background-color: #f18d97;
+                                                                                                                                                                                padding-bottom: 25px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            h1 {
+                                                                                                                                                                                font-size: 75px;
+                                                                                                                                                                                margin: 30px
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .tech-karo-circle p {
+                                                                                                                                                                                border-top: 1px solid black;
+                                                                                                                                                                                border-bottom: 1px solid black;
+                                                                                                                                                                                padding: 15px 50px;
+                                                                                                                                                                                font-size: 25px;
+                                                                                                                                                                                text-align: center;
+                                                                                                                                                                                margin: 1em 7em;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            button {
+                                                                                                                                                                                color: #f18d97;
+                                                                                                                                                                                background-color: #160d0e;
+                                                                                                                                                                                padding: 0.5em 2.5em;
+                                                                                                                                                                                font-size: 30px;
+                                                                                                                                                                                border: none;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .our-services {
+                                                                                                                                                                                background-color: #efece7;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .our-services i {
+                                                                                                                                                                                font-size: 7em;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .our-services p {
+                                                                                                                                                                                padding: 10px 20px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            h2 {
+                                                                                                                                                                                font-family: 'Pacifico', cursive;
+                                                                                                                                                                                font-size: 30px;
+                                                                                                                                                                                font-weight: 100;
+                                                                                                                                                                                text-align: center;
+                                                                                                                                                                                margin: 0;
+                                                                                                                                                                                padding: 20px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .services {
+                                                                                                                                                                                text-align: center;
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                flex-direction: row;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-us {
+                                                                                                                                                                                background-color: #afc7c6;
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                flex-direction: column;
+                                                                                                                                                                                padding: 1em;
+                                                                                                                                                                                justify-content: center;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-us i {
+                                                                                                                                                                                font-size: 1.5em;
+                                                                                                                                                                                padding: 10px;
+                                                                                                                                                                                border: 1px solid black;
+                                                                                                                                                                                border-radius: 50px 50px;
+                                                                                                                                                                                margin: 10px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-us div {
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                flex-direction: row;
+                                                                                                                                                                                justify-content: center;
+                                                                                                                                                                                padding: 10px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            footer {
+                                                                                                                                                                                background-color: #212121;
+                                                                                                                                                                                padding: 1.5em;
+                                                                                                                                                                                color: white;
+                                                                                                                                                                                font-size: 20px;
+                                                                                                                                                                                text-align: center;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .services i:hover {
+                                                                                                                                                                                color: #ed484c;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-us i:hover {
+                                                                                                                                                                                background-color: black;
+                                                                                                                                                                                color: #ddceb4;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            footer:hover i {
+                                                                                                                                                                                color: red;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .portfolio {
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                justify-content: center;
+                                                                                                                                                                                align-items: center;
+                                                                                                                                                                                flex-direction: column;
+                                                                                                                                                                                padding: 2em 10em;
+                                                                                                                                                                                background-color: #ddceb4;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .portfolio p {
+                                                                                                                                                                                padding: 2em 17em;
+                                                                                                                                                                                border-top: 1px solid black;
+                                                                                                                                                                                border-bottom: 1px solid black;
+                                                                                                                                                                                padding: 15px;
+                                                                                                                                                                                font-size: 25px;
+                                                                                                                                                                                text-align: center;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .portfolio img {
+                                                                                                                                                                                height: 11em;
+                                                                                                                                                                                width: 14em;
+                                                                                                                                                                                border: none;
+                                                                                                                                                                                border-radius: 10px;
+                                                                                                                                                                                margin: 2em;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            figure {
+                                                                                                                                                                                margin: 0;
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            figcaption {
+                                                                                                                                                                                border-radius: 10px;
+                                                                                                                                                                                margin: 2em;
+                                                                                                                                                                                height: 11em;
+                                                                                                                                                                                width: 14em;
+                                                                                                                                                                                color: #efece7;
+                                                                                                                                                                                background-color: #212121bf;
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                justify-content: center;
+                                                                                                                                                                                align-items: center;
+                                                                                                                                                                                flex-direction: column;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            figcaption h3 {
+                                                                                                                                                                                font-size: 25px;
+                                                                                                                                                                                margin: 0%;
+                                                                                                                                                                                padding: 0%;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            figcaption i {
+                                                                                                                                                                                border: 2px solid white;
+                                                                                                                                                                                border-radius: 100%;
+                                                                                                                                                                                padding: 10px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            figcaption ul {
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                padding: 10px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .images-1,
+                                                                                                                                                                            .images-2 {
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                flex-direction: row;
+                                                                                                                                                                                justify-content: space-between;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .photo-1 {
+                                                                                                                                                                                position: relative;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .figcaption-1 {
+                                                                                                                                                                                position: absolute;
+                                                                                                                                                                                transition: 1s;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .figure-1:hover figcaption-1 {
+                                                                                                                                                                                opacity: 0.7;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            figcaption:hover i {
+                                                                                                                                                                                background-color: #ddceb4;
+                                                                                                                                                                                color: #4c4c4c;
+                                                                                                                                                                                border-color: #4c4c4c;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .photo-2 {
+                                                                                                                                                                                position: relative;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .figcaption-2 {
+                                                                                                                                                                                position: absolute;
+                                                                                                                                                                                transition: 1s;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .figure-2:hover figcaption-2 {
+                                                                                                                                                                                opacity: 0.7;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .photo-3 {
+                                                                                                                                                                                position: relative;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .figcaption-3 {
+                                                                                                                                                                                position: absolute;
+                                                                                                                                                                                transition: 1s;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .figure-3:hover figcaption-3 {
+                                                                                                                                                                                opacity: 0.7;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .photo-4 {
+                                                                                                                                                                                position: relative;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .figcaption-4 {
+                                                                                                                                                                                position: absolute;
+                                                                                                                                                                                transition: 1s;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .figure-4:hover figcaption-4 {
+                                                                                                                                                                                opacity: 0.7;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .photo-5 {
+                                                                                                                                                                                position: relative;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .figcaption-5 {
+                                                                                                                                                                                position: absolute;
+                                                                                                                                                                                transition: 1s;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .figure-5:hover figcaption-5 {
+                                                                                                                                                                                opacity: 0.7;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .photo-6 {
+                                                                                                                                                                                position: relative;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .figcaption-6 {
+                                                                                                                                                                                position: absolute;
+                                                                                                                                                                                transition: 1s;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .figure-6:hover figcaption-6 {
+                                                                                                                                                                                opacity: 0.7;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            @media screen and (max-width: 550px) {
+                                                                                                                                                                                header {
+                                                                                                                                                                                    padding: 0px;
+                                                                                                                                                                                    margin: 0%;
+                                                                                                                                                                                }
+                                                                                                                                                                                .logo {
+                                                                                                                                                                                    padding: 10px 0px 5px 10px;
+                                                                                                                                                                                    margin: 0;
+                                                                                                                                                                                    width: 75px;
+                                                                                                                                                                                }
+                                                                                                                                                                                .list-items {
+                                                                                                                                                                                    padding: 0;
+                                                                                                                                                                                    margin: 0;
+                                                                                                                                                                                }
+                                                                                                                                                                                .tech-karo-circle h1 {
+                                                                                                                                                                                    font-size: 40px;
+                                                                                                                                                                                    margin: 40px 1px 20px 1px;
+                                                                                                                                                                                }
+                                                                                                                                                                                .tech-karo-circle p {
+                                                                                                                                                                                    padding: 11px 15px 12px 15px;
+                                                                                                                                                                                    margin: 15px 15px 25px 15px;
+                                                                                                                                                                                }
+                                                                                                                                                                                .services {
+                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                                    justify-content: center;
+                                                                                                                                                                                }
+                                                                                                                                                                                .portfolio {
+                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                    justify-content: center;
+                                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                                    flex-wrap: nowrap;
+                                                                                                                                                                                    padding: 20px;
+                                                                                                                                                                                }
+                                                                                                                                                                                .portfolio div {
+                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                    justify-content: center;
+                                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                                }
+                                                                                                                                                                                .portfolio img {
+                                                                                                                                                                                    height: 11em;
+                                                                                                                                                                                    width: 15em;
+                                                                                                                                                                                    border: none;
+                                                                                                                                                                                    border-radius: 10px;
+                                                                                                                                                                                    margin: 2em;
+                                                                                                                                                                                }
+                                                                                                                                                                                figcaption {
+                                                                                                                                                                                    height: 11em;
+                                                                                                                                                                                    width: 15em;
+                                                                                                                                                                                }
+                                                                                                                                                                                #photos-part {
+                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                                    justify-content: center;
+                                                                                                                                                                                }
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            @media screen and (max-width: 850px) and (min-width: 551px) {
+                                                                                                                                                                                header {
+                                                                                                                                                                                    padding: 0px;
+                                                                                                                                                                                    margin: 0%;
+                                                                                                                                                                                }
+                                                                                                                                                                                .logo {
+                                                                                                                                                                                    padding: 10px 0px 5px 10px;
+                                                                                                                                                                                    margin: 0;
+                                                                                                                                                                                    width: 75px;
+                                                                                                                                                                                }
+                                                                                                                                                                                .list-items {
+                                                                                                                                                                                    padding: 0;
+                                                                                                                                                                                    margin: 0;
+                                                                                                                                                                                }
+                                                                                                                                                                                .tech-karo-circle h1 {
+                                                                                                                                                                                    font-size: 40px;
+                                                                                                                                                                                    margin: 40px 1px 20px 1px;
+                                                                                                                                                                                }
+                                                                                                                                                                                .tech-karo-circle p {
+                                                                                                                                                                                    padding: 11px 15px 12px 15px;
+                                                                                                                                                                                    margin: 15px 15px 25px 15px;
+                                                                                                                                                                                }
+                                                                                                                                                                                .services {
+                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                                    justify-content: center;
+                                                                                                                                                                                }
+                                                                                                                                                                                .portfolio {
+                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                    justify-content: center;
+                                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                                    flex-wrap: nowrap;
+                                                                                                                                                                                    padding: 20px;
+                                                                                                                                                                                }
+                                                                                                                                                                                .portfolio div {
+                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                    justify-content: center;
+                                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                                }
+                                                                                                                                                                                .portfolio img {
+                                                                                                                                                                                    height: 11em;
+                                                                                                                                                                                    width: 15em;
+                                                                                                                                                                                    border: none;
+                                                                                                                                                                                    border-radius: 10px;
+                                                                                                                                                                                    margin: 2em;
+                                                                                                                                                                                }
+                                                                                                                                                                                figcaption {
+                                                                                                                                                                                    height: 11em;
+                                                                                                                                                                                    width: 15em;
+                                                                                                                                                                                }
+                                                                                                                                                                                #photos-part {
+                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                    flex-direction: row;
+                                                                                                                                                                                    justify-content: center;
+                                                                                                                                                                                }
+                                                                                                                                                                            }
